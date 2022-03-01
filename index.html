@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step 3, Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Step 3, registration</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset aria-label="Registration Details">
+                <legend>Registration Details</legend>
+                <section>
+                    <label for="university">University:</label>
+                    <input type="text" id="university" autocomplete="on" required>
+                </section>
+                <section>
+                    <label for="institute">Institute: </label>
+                    <input type="text" id="institute" autocomplete="on" required>
+                </section>
+                <section>
+                    <label for="branch">Branch: </label>
+                    <select name="branch" id="branch" required>
+                        <option value=''disabled selected hidden>--Select--</option>
+                        <option value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3'>3</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="degree">Degree: </label>
+                    <select name="degree" id="degree" required>
+                        <option value=''disabled selected hidden>--Select--</option>
+                        <option value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3'>3</option>
+                    </select>
+                    <input class="radioInput" type="radio" id="degreeOption" name="degreeOption" required>
+                    <label for="degreeOption" class="radio">Pursuing</label>
+                    <input class="radioInput" type="radio" id="completed" name="degreeOption" required>
+                    <label class="radio" for="completed">Completed</label>
+                </section>
+                <section>
+                    <label for="average">Average CPI: </label>
+                    <input class="number" type="number" id="average" name="average" min="0" max="10" required>
+                    <p>Upto</p>
+                    <input class="number" type="number" id="semester" name="semester" min="0" max="10" required>
+                    <p>Th Semester</p>
+                </section>
+                <section>
+                    <label for="experience">Experience: </label>
+                    <input class="number" type="number" id="experience" name="experience" min="0" max="100" required>
+                    <p>Years</p>
+                </section>
+                <section>
+                    <label for="blog">Your Website Or Blog: </label>
+                    <input name="blog" type="url" id="blog" placeholder="https://">
+                </section>
+            </fieldset>
+            <section class="submitButton">
+                <button aria-label="Submit Button, Previous Page">
+                    <img src="https://via.placeholder.com/30" alt="">
+                </button>
+                <p>Step 2</p>
+                <button aria-label="Submit Button, Next Page">
+                    <img src="https://via.placeholder.com/30" alt="">
+                </button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

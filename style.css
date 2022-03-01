@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #356AA0;
+}
+
+fieldset {
+    align-items: center;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    width: 800px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+input {
+    border-radius: 4px;
+    padding: 5px;
+    width: 240px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    width: 60px;
+}
+
+label {
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+    width: 240px;
+}
+
+p {
+    display: inline;}
+
+.radio {
+    text-align: left;
+    width: 100px;
+}
+
+.radioInput {
+    width: 12px;
+}
+
+.submitButton {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    width: 160px;
+}
+
+
